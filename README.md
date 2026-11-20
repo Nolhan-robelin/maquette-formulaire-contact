@@ -12,7 +12,7 @@ Créez un formulaire de contact accessible en appliquant les balises et attribut
 4. **Message** : ajouter un `<textarea>` avec `required` et `rows="4"`.
 5. **Bouton d'envoi** : ajouter un `<button type="submit">` avec le texte "Envoyer".
 6. **Groupe de champs** : entourer les champs "Nom" et "E-mail" avec `<fieldset>` et `<legend>` "Vos coordonnées".
-7. **Validation** : ajouter `minlength="2"` sur le champ Nom et `pattern="[A-Z]{3}"` avec `title` sur un champ "Code postal" (`type="text"`).
+7. **Validation** : Ajouter un champ "Code postal" avec `minlength="5"` et `pattern="[A-B0-9]{6}"` avec un attribut `title` pour indiquer le format attendu.
 8. **Style** : dans `style.css`, appliquer un style de base au formulaire (padding, bordure, espacement entre les champs).
 9. **Suggestions avec `<datalist>` (optionnel)** : remplacer le `<select>` de la consigne 3 par un `<input>` couplé à un `<datalist>` proposant les mêmes suggestions, tout en laissant l'utilisateur taper sa propre valeur.
 10. Déployer sur github pages et tester sur smarthpone
