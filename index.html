@@ -10,7 +10,7 @@
     <main>
         <!-- Consigne 1 : en-tête du formulaire -->
         <h2>Contactez-nous</h2>
-        <p> Service d'aide</p>
+        <p> Service d'aide , développement Front-End entièrement personalisé et paufiné par Lilou Walkowiak</p>
 
         <!-- Consigne 6 : fieldset et legend -->
         <fieldset>
@@ -25,6 +25,11 @@
         <section>
         <label for="email">E-mail</label>
             <input type="email">
+        </section>
+
+        <section> 
+            <label>Code postal</label>
+            <input minlength="5" pattern="[A-B0-9]{6}" title="6 Caractère Max">
         </section>
         </fieldset>
 
@@ -46,8 +51,7 @@
             <textarea rows="4"></textarea>
 
         <!-- Consigne 7 : champ Code postal avec pattern -->
-        <label>Code postal</label>
-            <input minlength="5" pattern="[A-B0-9]{6}" title="6 Caractère Max">
+        
         <!-- Consigne 5 : bouton d'envoi -->
         <button type="submit">Envoyer</button> 
     </main>

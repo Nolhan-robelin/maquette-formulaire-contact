@@ -12,17 +12,23 @@ body {
 
 form {
     padding: 15rem;
-    border-color: 5px solid rgb(54, 12, 67);
     margin: 15rem;
+    border: 2px solid;
     /* Ajouter un padding, une bordure et un espacement */
 }
 
 fieldset {
-    margin:1rem 0;  
+    margin:2rem 0;  
     border-color: #93C572;
-    border-radius: 10%;
-    
+    border-radius: 10%;  
+    border: 3px solid #14532d;
     /* Espacer les groupes de champs */
+}
+
+legend{
+    text-align: center;
+    color: #14532d;
+    font-weight: bold;
 }
 
 label {
@@ -31,9 +37,8 @@ label {
     font-size: 1rem;
     padding: 0.2rem;
     border-radius: 10%;
-    display: block;
-    margin-bottom: 8px;
-    margin-top: 16px;
+    display: inline-block;
+    margin: 12px 0 6px 0;
     
 }
 
@@ -43,6 +48,7 @@ textarea {
     /* Style de base pour les champs */
     background-color: #D9D28B;
     border-radius: 10%;
+    display: block;
 }
 
 button {
@@ -50,6 +56,8 @@ button {
     color: #F4F0E2;
     border-radius: 20%;
     background-color: #6A795D;
+    font-size: 16px;
+    padding: 6px 18px
 }
 
 /* Consigne 9 (optionnel) : datalist — pas de style spécifique nécessaire,
