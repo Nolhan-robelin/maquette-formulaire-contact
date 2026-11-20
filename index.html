@@ -9,21 +9,42 @@
 <body>
     <main>
         <!-- Consigne 1 : en-tête du formulaire -->
+        <h2>Contactez-nous</h2>
+        <p> Service d'aide</p>
 
         <!-- Consigne 6 : fieldset et legend -->
+        <fieldset>
+        <legend> Vos coordonées</legend>
 
         <!-- Consigne 2 : champs Nom et E-mail avec label et required -->
+        <label>Nom </label>
+            <input required>
+        <label>E-mail</label>
+            <input type="email">
+        </fieldset>
 
         <!-- Consigne 3 : select avec 3 options -->
+        <label for="aide">Aide</label> 
+        <input type="text" id="aide" name="aide" list="Aide">
+
+        <datalist id="Aide">
+            <option value="Question Générale">
+            <option value="Problème technique">
+            <option value="Autres">
+        </datalist>
+        
 
         <!-- Consigne 9 (optionnel) : remplacer le select par un input + datalist -->
 
         <!-- Consigne 4 : textarea avec required -->
+        <label> Commentaire </label>
+            <textarea rows="4"></textarea>
 
         <!-- Consigne 7 : champ Code postal avec pattern -->
-
+        <label>Code postal</label>
+            <input minlength="5" pattern="[A-B0-9]{6}" title="6 Caractère Max">
         <!-- Consigne 5 : bouton d'envoi -->
-
+        <button type="submit">Envoyer</button> 
     </main>
 </body>
 </html>

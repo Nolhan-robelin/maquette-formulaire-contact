@@ -7,29 +7,47 @@ body {
     max-width: min(100% - 2rem, 72rem);
     margin-inline: auto;
     padding: 1rem;
+    background-color: beige;
 }
 
 form {
+    padding: 15rem;
+    border-color: 5px solid rgb(54, 12, 67);
+    margin: 15rem;
     /* Ajouter un padding, une bordure et un espacement */
 }
 
 fieldset {
+    margin:1rem 0;  
+    border-color: #93C572;
+    border-radius: 10%;
+    
     /* Espacer les groupes de champs */
 }
 
 label {
     /* Rendre les labels plus lisibles */
+    background-color: #93C572;
+    font-size: 1rem;
+    padding: 0.2rem;
+    border-radius: 10%;
+    
 }
 
 input,
 select,
 textarea {
     /* Style de base pour les champs */
+    background-color: #D9D28B;
+    border-radius: 10%;
 }
 
 button {
-    /* Style du bouton d'envoi */
-}
+/* Style du bouton d'envoi */
+    color: #F4F0E2;
+    border-radius: 20%;
+    background-color: #6A795D;
+    
 
 /* Consigne 9 (optionnel) : datalist — pas de style spécifique nécessaire,
    le navigateur gère les suggestions nativement */
